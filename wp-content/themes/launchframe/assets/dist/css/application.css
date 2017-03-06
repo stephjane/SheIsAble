@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "NexaBold";
+  src: url("./fonts/NexaBold/Webfonts/nexa_boldfree_macroman/specimen_files/Nexa_Free_Bold-webfont.eot");
+  src: url("./fonts/NexaBold/Webfonts/nexa_boldfree_macroman/specimen_files/Nexa_Free_Bold-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/NexaBold/Webfonts/nexa_boldfree_macroman/specimen_files/Nexa_Free_Bold-webfont.woff") format("woff"), url("./fonts/NexaBold/Webfonts/nexa_boldfree_macroman/specimen_files/Nexa_Free_Bold-webfont.ttf") format("truetype"), url("./fonts/NexaBold/Webfonts/nexa_boldfree_macroman/specimen_files/Nexa_Free_Bold-webfont.svg") format("svg"); }
+
+@font-face {
+  font-family: "NexaLight";
+  src: url("./fonts/NexaLight/Webfonts/nexa_lightfree_macroman/specimen_files/Nexa_Free_Light-webfont.eot");
+  src: url("./fonts/NexaLight/Webfonts/nexa_lightfree_macroman/specimen_files/Nexa_Free_Light-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/NexaLight/Webfonts/nexa_lightfree_macroman/specimen_files/Nexa_Free_Light-webfont.woff") format("woff"), url("./fonts/NexaLight/Webfonts/nexa_lightfree_macroman/specimen_files/Nexa_Free_Light-webfont.ttf") format("truetype"), url("./fonts/NexaLight/Webfonts/nexa_lightfree_macroman/specimen_files/Nexa_Free_Light-webfont.svg") format("svg"); }
+
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -7312,6 +7322,25 @@ nav {
 
 .font__color--gray-light {
   color: #818a91; }
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h4,
+.h4 h5,
+.h5 {
+  font-family: "NexaBold", Helvetica, Arial, sans-serif; }
+
+h6,
+.h6,
+p,
+.p {
+  font-family: "NexaLight", Helvetica, Arial, sans-serif; }
 
 h1,
 .h1 {
