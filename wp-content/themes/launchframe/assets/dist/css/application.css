@@ -7370,9 +7370,11 @@ p,
 .p {
   font-size: 1rem; }
 
-.btn.btn-primary {
-  background-color: #55595c;
-  border: 0; }
+.btn {
+  font-family: "NexaBold", Helvetica, Arial, sans-serif; }
+  .btn.btn-primary {
+    background-color: #55595c;
+    border: 0; }
 
 body {
   color: #55595c;
