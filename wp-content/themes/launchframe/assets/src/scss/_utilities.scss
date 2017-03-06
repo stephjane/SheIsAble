@@ -1,3 +1,22 @@
 .clearfix, .cf, .clear {
     overflow: auto;
 }
+.u-bg {
+    &__color {
+        &--gray-dark {
+            background-color: $gray-dark;
+        }
+        &--gray {
+            background-color: $gray;
+        }
+        &--gray-light {
+            background-color: $gray-light;
+        }
+        &--gray-lighter {
+            background-color: $gray-lighter;
+        }
+        &--gray-lightest {
+            background-color: $gray-lightest;
+        }
+    }
+}
