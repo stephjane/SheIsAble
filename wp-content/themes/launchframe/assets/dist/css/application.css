@@ -6719,19 +6719,19 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .clearfix, .cf, .clear {
   overflow: auto; }
 
-.u-bg__color--gray-dark {
+.bg__color--gray-dark {
   background-color: #373a3c; }
 
-.u-bg__color--gray {
+.bg__color--gray {
   background-color: #55595c; }
 
-.u-bg__color--gray-light {
+.bg__color--gray-light {
   background-color: #818a91; }
 
-.u-bg__color--gray-lighter {
+.bg__color--gray-lighter {
   background-color: #eceeef; }
 
-.u-bg__color--gray-lightest {
+.bg__color--gray-lightest {
   background-color: #f7f7f9; }
 
 .no-gutter {
