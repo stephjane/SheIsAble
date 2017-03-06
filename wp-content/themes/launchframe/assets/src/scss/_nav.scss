@@ -1,0 +1,13 @@
+nav {
+    background-color: $gray;
+    ul {
+        list-style-type: none;
+    }
+}
+.nav-main-item {
+    display: inline-block;
+    margin: 10px;
+    a {
+        color: $white;
+    }
+}

@@ -18,11 +18,31 @@
 //
 // Variable format should follow the `//$component-modifier-state-property` order.
 
+//Fonts
+@font-face {
+    font-family: "NexaBold";
+    src: url("./fonts/NexaBold/Webfonts/nexa_boldfree_macroman/specimen_files/Nexa_Free_Bold-webfont.eot");
+    src: url("./fonts/NexaBold/Webfonts/nexa_boldfree_macroman/specimen_files/Nexa_Free_Bold-webfont.eot?#iefix") format("embedded-opentype"),
+         url("./fonts/NexaBold/Webfonts/nexa_boldfree_macroman/specimen_files/Nexa_Free_Bold-webfont.woff") format("woff"),
+         url("./fonts/NexaBold/Webfonts/nexa_boldfree_macroman/specimen_files/Nexa_Free_Bold-webfont.ttf") format("truetype"),
+         url("./fonts/NexaBold/Webfonts/nexa_boldfree_macroman/specimen_files/Nexa_Free_Bold-webfont.svg") format("svg");
+}
+$font-nexa-bold: "NexaBold", Helvetica, Arial, sans-serif;
+
+@font-face {
+    font-family: "NexaLight";
+    src: url("./fonts/NexaLight/Webfonts/nexa_lightfree_macroman/specimen_files/Nexa_Free_Light-webfont.eot");
+    src: url("./fonts/NexaLight/Webfonts/nexa_lightfree_macroman/specimen_files/Nexa_Free_Light-webfont.eot?#iefix") format("embedded-opentype"),
+         url("./fonts/NexaLight/Webfonts/nexa_lightfree_macroman/specimen_files/Nexa_Free_Light-webfont.woff") format("woff"),
+         url("./fonts/NexaLight/Webfonts/nexa_lightfree_macroman/specimen_files/Nexa_Free_Light-webfont.ttf") format("truetype"),
+         url("./fonts/NexaLight/Webfonts/nexa_lightfree_macroman/specimen_files/Nexa_Free_Light-webfont.svg") format("svg");
+}
+$font-nexa-light: "NexaLight", Helvetica, Arial, sans-serif;
 
 // Colors
 //
 // Grayscale and brand colors for use across Bootstrap.
-
+$white:                     #FFF;
 $gray-dark:                 #373a3c;
 $gray:                      #55595c;
 $gray-light:                #818a91;

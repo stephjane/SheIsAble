@@ -2,3 +2,19 @@
 @import "../../vendor/bootstrap/scss/bootstrap";
 @import "utilities";
 @import "grid_extensions";
+@import "nav";
+@import "footer";
+@import "type";
+@import "buttons";
+
+body {
+    color: $gray;
+    background-color: $gray-lightest;
+}
+section {
+    padding: 30px 0;
+    text-align: center;
+}
+article {
+    padding: 20px 0;
+}

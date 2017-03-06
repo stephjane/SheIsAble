@@ -1,0 +1,7 @@
+.btn {
+    font-family: $font-nexa-bold;
+    &.btn-primary {
+        background-color: $gray;
+        border: 0;
+    }
+}
