@@ -1,21 +1,15 @@
-{% for item in post.get_field('flex_fields') %}
+{% for item in post.get_field('flex_sections') %}
     {% if item.acf_fc_layout == 'header' %}
     	{% include "flex_sections/header.twig" %}
     {% elseif item.acf_fc_layout == 'body_content' %}
     	{% include "flex_sections/body_content.twig" %}
-    {% elseif item.acf_fc_layout == 'list' %}
-    	{% include "flex_sections/list.twig" %}
     {% elseif item.acf_fc_layout == 'image_carousel' %}
     	{% include "flex_sections/image_carousel.twig" %}
     {% elseif item.acf_fc_layout == 'cta' %}
     	{% include "flex_sections/cta.twig" %}
     {% elseif item.acf_fc_layout == 'item_grid' %}
     	{% include "flex_sections/item_grid.twig" %}
-    {% elseif item.acf_fc_layout == 'form' %}
-    	{% include "flex_sections/form.twig" %}
-    {% elseif item.acf_fc_layout == 'endorsements' %}
-    	{% include "flex_sections/endorsements.twig" %}
-    {% elseif item.acf_fc_layout == 'needs' %}
-    	{% include "flex_sections/needs.twig" %}
+    {% elseif item.acf_fc_layout == 'full_image_text_overlay' %}
+        {% include "flex_sections/image_text.twig" %}
     {% endif %}
 {% endfor %}
