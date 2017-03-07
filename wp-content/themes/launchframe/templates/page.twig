@@ -6,7 +6,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm">
-					<p class="h1">Header</p>
+					<p class="h1">{{ post.get_field('hero_text') }}</p>
+					<p>{{ post.get_field('content') }}</p>
 					<a href="#!" class="btn btn-primary">button</a>
 				</div>
 			</div>
