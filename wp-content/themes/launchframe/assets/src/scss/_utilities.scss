@@ -1,8 +1,25 @@
 .clearfix, .cf, .clear {
     overflow: auto;
 }
+
+.u-abs-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
 .bg {
     &__color {
+        &--primary {
+            background-color: $brand-primary;
+        }
+        &--secondary {
+            background-color: $brand-secondary;
+        }
         &--gray-dark {
             background-color: $gray-dark;
         }
@@ -18,5 +35,63 @@
         &--gray-lightest {
             background-color: $gray-lightest;
         }
+    }
+    &__img {
+        z-index: 0;
+        background-color: fade-out($gray-lighter, .6);
+        background-position: center;
+        background-size: cover;
+        &--contain {
+            z-index: 0;
+            background-color: fade-out($gray-lighter, .6);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+}
+
+.u-relative {
+    position: relative;
+}
+
+.u-display {
+    &__inline {
+        display: inline-block;
+    }
+    &__block {
+        display: block;
+    }
+}
+
+.u-desktop {
+    display: none;
+    @include media-breakpoint-up(md) {
+        display: initial;
+    }
+}
+.u-mobile {
+    @include media-breakpoint-up(md) {
+        display: none;
+    }
+}
+
+.u-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.u-text {
+    &__center {
+        text-align: center;
+    }
+    &__primary {
+        color: $brand-primary;
+    }
+    &__secondary {
+        color: $brand-secondary;
+    }
+    &__white {
+        color: $white;
     }
 }
