@@ -9,5 +9,7 @@
     	{% include "flex_sections/cta.twig" %}
     {% elseif item.acf_fc_layout == 'item_grid' %}
     	{% include "flex_sections/item_grid.twig" %}
+    {% elseif item.acf_fc_layout == 'full_image_text_overlay' %}
+        {% include "flex_sections/image_text.twig" %}
     {% endif %}
 {% endfor %}
